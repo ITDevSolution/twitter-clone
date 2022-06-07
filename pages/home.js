@@ -18,7 +18,7 @@ import Feed from "components/Feed"
 import Widgets from "components/Widgets"
 import LoadMore from "components/LoadMore"
 
-export default function home({ initialTweets }) {
+export default function Home({ initialTweets }) {
   const [tweets, setTweets] = useState(initialTweets)
 
   const { data: session, status } = useSession()
